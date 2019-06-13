@@ -1,0 +1,5 @@
+/.vs/DatasetBuilder/v15/*.suo
+/.vs/DatasetBuilder/v15/Server/sqlite3/*.lock
+/.vs/DatasetBuilder/v15/Server/sqlite3/*.ide
+/.vs/DatasetBuilder/v15/Server/sqlite3/*.ide-shm
+/.vs/DatasetBuilder/v15/Server/sqlite3/*.ide-wal
