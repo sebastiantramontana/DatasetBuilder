@@ -3,3 +3,7 @@
 /.vs/DatasetBuilder/v15/Server/sqlite3/*.ide
 /.vs/DatasetBuilder/v15/Server/sqlite3/*.ide-shm
 /.vs/DatasetBuilder/v15/Server/sqlite3/*.ide-wal
+/DatasetBuilder/bin
+/DatasetBuilder/obj
+/Example/bin
+/Example/obj
