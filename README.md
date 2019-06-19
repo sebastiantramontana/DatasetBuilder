@@ -1,10 +1,10 @@
 # DatasetBuilder
 A simple dataset builder library to generate automatically random labeled data
 
-##Usage:
+## Usage:
 There are two datasets classes: Typed and non-typed.
 
-###Typed Dataset:
+### Typed Dataset:
 
 1- Create de labeled entity type:
 
@@ -74,7 +74,7 @@ var test = dataset.Test;
 
 ```
 
-###Non-typed Dataset:
+### Non-typed Dataset:
 Dynamic (non-typed) dataset has not entity types and you can build it dynamically. So:
 
 ```C#
