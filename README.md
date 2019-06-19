@@ -8,7 +8,7 @@ There are two datasets classes: Typed and non-typed.
 
 1- Create de labeled entity type:
 
-```csharp
+```cs
 
     public class Iris
     {
