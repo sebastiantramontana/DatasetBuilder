@@ -8,7 +8,7 @@ There are two datasets classes: Typed and non-typed.
 
 1- Create de labeled entity type:
 
-```cs
+```csharp
 
     public class Iris
     {
@@ -33,13 +33,15 @@ There are two datasets classes: Typed and non-typed.
     - Pass the property used as label as lambda (iris => iris.Label in this example)
     - Optionally, pass a overall default ordering.
 
+```csharp
     var datasetBuilder = new TypedDatasetBuilder<Iris, float, IrisLabel>(iris => iris.Label, OrderingFactory.Random);
+```
 
 3- Configure the datasetbuilder:
     - Set de default ordering algorithm for each attributes (override the overall default ordering).
     - Set the min, max values and, optionally, the ordering (override default), for each attribute for each labels
 
-```C#
+```csharp
 
     datasetBuilder.Configure()
         .Ordering()
@@ -65,7 +67,7 @@ There are two datasets classes: Typed and non-typed.
 
 4- Generate data: Pass the samples count for training, validation and test for each label. Each dataset is an enumerable of entity.
 
-```C#
+```csharp
 
 var dataset = datasetBuilder.Generate(80, 20, 20);
 var training = dataset.Training;
@@ -77,7 +79,7 @@ var test = dataset.Test;
 ### Non-typed Dataset:
 Dynamic (non-typed) dataset has not entity types and you can build it dynamically. So:
 
-```C#
+```csharp
 
     var datasetBuilder = new DynamicDatasetBuilder(OrderingFactory.Random);
 
