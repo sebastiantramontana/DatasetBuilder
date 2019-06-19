@@ -111,6 +111,8 @@ Dynamic (non-typed) dataset has not entity types and you can build it dynamicall
 	
 ```
 
-Extensibility
+## Extensibility
 - There are some preset orderings. They were placed on OrderingFactory class, but you can implement IOrdering by yourself.
 - The default IAttributeNumberGenerator is EquidistantAttributeNumberGenerator: That one generates random numbers between max and min limit attribute's values splitted by count. You can implement your own.
+
+See the Example project!
