@@ -1,5 +1,5 @@
 # DatasetBuilder
-A simple dataset builder library to generate automatically random labeled data
+A simple dataset builder .Net library to generate automatically random labeled data
 
 ## Usage:
 There are two datasets classes: Typed and non-typed.
